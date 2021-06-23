@@ -60,6 +60,8 @@ h1,h2,h3{
     width: 100%;
     padding: 0px 20px;
 }
+
+
 footer{
     width: 100%;
     height: auto;
@@ -70,8 +72,13 @@ footer{
 ul,ol{
     list-style: none;
 }
+
+.about_padding{
+    padding: 5px 0px;
+}
+
 .timeline{
-    padding: 20px 100px;
+    padding: 0px 100px;
     position: relative;
     width: 100%;
 }
