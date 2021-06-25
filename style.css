@@ -189,9 +189,9 @@ ul,ol{
   img {
     display:block;
   }
-  .modal_img{
-      width: 500px;
-      height: 300px;
+  .modal-img{
+      width: 50%;
+      height: auto;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -212,7 +212,7 @@ ul,ol{
     background-position: center;
     width: auto;
     height: 500px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .header_color{
     color: #649DBB;
@@ -239,6 +239,8 @@ ul,ol{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    
     
 }
 
@@ -295,12 +297,12 @@ ul,ol{
     .timeline ul li:nth-child(odd)::before,
     .timeline ul li:nth-child(even)::before{
         right: -200px;
-        left: -170px;
+        left: -180px;
         top: 40%;
     }
 
     .modal_img{
         width:100%;
-        height:100%;
+        height:auto;
     }
   }
