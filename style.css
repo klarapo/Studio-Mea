@@ -213,7 +213,7 @@ img {
     background-position: center;
     background-blend-mode:soft-light;
     width: 100%;
-    height: auto;
+    max-height: 500px;
 }
 .header_color{
     color: #649DBB;
